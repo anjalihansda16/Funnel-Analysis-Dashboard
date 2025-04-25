@@ -64,12 +64,12 @@ Dynamic selectors for any “From” and “To” funnel steps are used to calcu
 
 ## Screenshots
 #### Overview Page 1
-![overview_1](dashboard_demo/Overview-1.png)
+![overview_1](viz/Overview-1.png)
 
 #### Overview Page 2
-![overview_2](dashboard_demo/Overview-2.png)
+![overview_2](viz/Overview-2.png)
 
 #### Funnel Analysis
-![funnel](dashboard_demo/Funnel.png)
+![funnel](viz/Funnel.png)
 
 
