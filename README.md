@@ -13,7 +13,7 @@ Design a comprehensive and interactive funnel performance dashboard to:
 - Analyze ride-related wait times affecting conversion
 
 ## ERD
-![erd]()
+![erd](viz/ERD.png)
 ## Metrices
  The following metrics and visualizations are included across the five key sections:
 
