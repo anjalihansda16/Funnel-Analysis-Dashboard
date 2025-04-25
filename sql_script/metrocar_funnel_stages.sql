@@ -2,16 +2,10 @@ select *
 from Metrocar_download_and_signups 
 
 select *
-from Metrocar_ride_coordinate
-
-select *
 from Metrocar_requests_and_payments
 
 select *
 from Metrocar_reviews_table
-
-select *
-from Metrocar_User_Reviews
 
 -- Data Wrangling for Viz 
 --- Downloads funnel 
@@ -174,6 +168,7 @@ select
 into payments
 from cte
 where purchase_amount_usd is not null
+and charge_status = 'Approved'
 group by platform, age_range, convert(date, request_ts);
 
 
